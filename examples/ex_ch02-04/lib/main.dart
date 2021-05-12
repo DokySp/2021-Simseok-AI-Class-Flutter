@@ -44,12 +44,16 @@ class MainView extends StatelessWidget {
                         fontSize: 30,
                       ),
                     ),
+                    
+                    // 아이콘 생성
                     Icon(
+                      // 머터리얼(구글 스타일) 아이콘
                       Icons.whatshot,
                       size: 80,
                       color: Colors.red,
                     ),
                     Icon(
+                      // 쿠퍼티노(애플 스타일) 아이콘
                       CupertinoIcons.alarm,
                       color: Colors.green,
                       size: 80,
@@ -95,13 +99,13 @@ class MainView extends StatelessWidget {
                   color: Colors.blue,
                 ),
 
-                // 컨테이너 (바구니)
+                // 컨테이너 (바구니) - 남색
                 Container(
                   height: 100,
                   color: Colors.indigo,
                 ),
 
-                // 컨테이너 (바구니)
+                // 컨테이너 (바구니) - 보라색
                 Container(
                   height: 100,
                   color: Colors.purple,
