@@ -68,7 +68,9 @@ class MainView extends StatelessWidget {
                   // CupertinoButton -> 애플 스타일
                   child: CupertinoButton(
                     color: Colors.grey,
+                    // 버튼이 눌렸을 때 동작할 명령 넣는 곳
                     onPressed: () => print("버튼버튼"),
+                    // 버튼 안에 들어갈 위젯
                     child: Icon(
                       Icons.ac_unit,
                       color: Colors.red,
@@ -113,13 +115,13 @@ class MainView extends StatelessWidget {
                   color: Colors.blue,
                 ),
 
-                // 컨테이너 (바구니)
+                // 컨테이너 (바구니) - 남색
                 Container(
                   height: 100,
                   color: Colors.indigo,
                 ),
 
-                // 컨테이너 (바구니)
+                // 컨테이너 (바구니) - 보라색
                 Container(
                   height: 100,
                   color: Colors.purple,
