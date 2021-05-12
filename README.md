@@ -1,2 +1,5 @@
-# 2021-Simseok-AI-Class-Flutter
-2021년 심석고등학교 인공지능 교실 - Flutter 강좌
+# [2021] 심석 인공지능 교실 - Flutter 강좌
+
+
+### Issue
+ - 강의자료에 대한 질문, 오류는 issue로 달아주세요!
