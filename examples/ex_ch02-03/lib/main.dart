@@ -36,8 +36,11 @@ class MainView extends StatelessWidget {
                 // 택스트
                 Text(
                   "안녕 플러터!!",
+                  // 텍스트 스타일 설정
                   style: TextStyle(
+                    // 텍스트 색상
                     color: Colors.purple,
+                    // 텍스트 크기
                     fontSize: 50,
 
                     // 강의자료 미포함 - 폰트 두께
@@ -52,7 +55,6 @@ class MainView extends StatelessWidget {
                 ),
 
                 // 무지개를 만들어보자!
-
                 // 컨테이너 (바구니) - 빨간색
                 Container(
                   height: 100,
@@ -83,13 +85,13 @@ class MainView extends StatelessWidget {
                   color: Colors.blue,
                 ),
 
-                // 컨테이너 (바구니)
+                // 컨테이너 (바구니) - 남색
                 Container(
                   height: 100,
                   color: Colors.indigo,
                 ),
 
-                // 컨테이너 (바구니)
+                // 컨테이너 (바구니) - 보라색
                 Container(
                   height: 100,
                   color: Colors.purple,
