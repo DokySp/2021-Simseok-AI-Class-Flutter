@@ -4,7 +4,7 @@
  - 1강 첫 번째 예제입니다.
 
 ## 코드 보기
- - [main.dart](https://github.com/DokySp/2021-Simseok-AI-Class-Flutter/blob/main/examples/ex_ch01-01/lib/main.dart?raw=true)
+ - [main.dart](https://github.com/DokySp/2021-Simseok-AI-Class-Flutter/blob/main/examples/ex_ch01-01/lib/main.dart)
 
 ## Screenshots
 
