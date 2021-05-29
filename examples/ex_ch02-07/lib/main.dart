@@ -58,7 +58,55 @@ class MyApp extends StatelessWidget {
             // 스토리
             Container(
               height: 120,
-              color: Colors.green,
+              child: Row(
+                children: [
+                  //
+                  // 프로필
+                  Container(
+                    width: 100,
+                    height: 110,
+                    child: Column(
+                      children: [
+                        Image(
+                          image: AssetImage("assets/profile1.png"),
+                          width: 75,
+                        ),
+                        SizedBox(height: 5),
+                        Text(
+                          "내 스토리",
+                          style: TextStyle(fontFamily: "nanum"),
+                        )
+                      ],
+                    ),
+                  ),
+                  //
+                  //
+                  // 프로필
+                  Container(
+                    width: 100,
+                    height: 110,
+                    child: Column(
+                      children: [
+                        Image(
+                          image: AssetImage("assets/profile2-2.png"),
+                          width: 75,
+                        ),
+                        SizedBox(height: 5),
+                        Text(
+                          "doky.sp",
+                          style: TextStyle(fontFamily: "nanum"),
+                        )
+                      ],
+                    ),
+                  ),
+                  //
+                ],
+              ),
+            ),
+
+            Divider(
+              height: 1,
+              thickness: 1,
             ),
 
             // 포스트
