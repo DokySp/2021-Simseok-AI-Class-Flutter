@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,8 +22,37 @@ class MyApp extends StatelessWidget {
 
             // 상단바
             Container(
-              height: 100,
-              color: Colors.red,
+              height: 120,
+              child: Row(
+                children: [
+                  SizedBox(width: 15),
+                  Expanded(
+                    child: Container(
+                      alignment: Alignment.bottomLeft,
+                      child: Image(
+                        image: AssetImage("assets/logo.png"),
+                        height: 50,
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    child: Container(
+                      alignment: Alignment.bottomCenter,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.end,
+                        children: [
+                          Icon(Icons.add_box_outlined, size: 35),
+                          SizedBox(width: 15),
+                          Icon(Icons.favorite_border_rounded, size: 35),
+                          SizedBox(width: 15),
+                          Icon(CupertinoIcons.paperplane, size: 35),
+                          SizedBox(width: 15),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
 
             // 스토리
