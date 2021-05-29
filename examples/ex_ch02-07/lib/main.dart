@@ -112,7 +112,74 @@ class MyApp extends StatelessWidget {
             // 포스트
             Expanded(
               child: Container(
-                color: Colors.orange,
+                color: Colors.red,
+                child: Column(
+                  children: [
+                    //
+                    //
+                    // 포스트 하나
+                    Container(
+                      color: Colors.orange,
+                      child: Column(
+                        children: [
+                          //
+                          // 상단 아이디 부분
+                          SizedBox(height: 10),
+                          Row(
+                            children: [
+                              SizedBox(width: 10),
+                              Image(
+                                image: AssetImage("assets/profile1.png"),
+                                width: 40,
+                              ),
+                              SizedBox(width: 10),
+                              Text(
+                                "cat.king12",
+                                style: TextStyle(fontSize: 20),
+                              ),
+                            ],
+                          ),
+                          SizedBox(height: 10),
+                          //
+                          // 사진 부분
+                          Image(
+                            image: AssetImage("assets/post1-1.png"),
+                          ),
+                          //
+                          // 포스트 글 부분
+                          Column(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              SizedBox(height: 10),
+                              Text(
+                                "    좋아요 203개",
+                                style: TextStyle(
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.w600,
+                                  fontFamily: "nanum",
+                                ),
+                              ),
+                              Text(
+                                "    cat.king12  냥... 찍자 말라냥..",
+                                style: TextStyle(
+                                  fontSize: 17,
+                                  fontFamily: "nanum",
+                                ),
+                              ),
+                              SizedBox(height: 10),
+                            ],
+                          ),
+                          //
+                          // 다음 포스트와의 간격
+                          SizedBox(height: 20)
+                        ],
+                      ),
+                    ),
+                    //
+                    //
+                  ],
+                ),
               ),
             ),
 
