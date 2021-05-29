@@ -40,11 +40,11 @@ class MyApp extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
-                          Icon(Icons.add_box_outlined, size: 35),
+                          Icon(Icons.add_box_outlined, size: 30),
                           SizedBox(width: 15),
-                          Icon(Icons.favorite_border_rounded, size: 35),
+                          Icon(Icons.favorite_border_rounded, size: 30),
                           SizedBox(width: 15),
-                          Icon(CupertinoIcons.paperplane, size: 35),
+                          Icon(CupertinoIcons.paperplane, size: 30),
                           SizedBox(width: 15),
                         ],
                       ),
@@ -363,7 +363,30 @@ class MyApp extends StatelessWidget {
             // 하단바
             Container(
               height: 100,
-              color: Colors.blue,
+              child: Column(
+                children: [
+                  Divider(
+                    height: 1,
+                    thickness: 1,
+                  ),
+                  SizedBox(height: 15),
+                  Row(
+                    children: [
+                      Expanded(child: Icon(Icons.home, size: 30)),
+                      Expanded(child: Icon(Icons.search, size: 30)),
+                      Expanded(
+                          child: Icon(Icons.video_library_outlined, size: 30)),
+                      Expanded(child: Icon(Icons.shop_outlined, size: 30)),
+                      Expanded(
+                        child: Image(
+                          image: AssetImage("assets/profile1.png"),
+                          height: 30,
+                        ),
+                      )
+                    ],
+                  ),
+                ],
+              ),
             ),
           ],
         ),
