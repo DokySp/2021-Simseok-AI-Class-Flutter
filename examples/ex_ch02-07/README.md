@@ -6,6 +6,7 @@
 
 ## 코드 보기
  - [main.dart](https://github.com/DokySp/2021-Simseok-AI-Class-Flutter/blob/main/examples/ex_ch02-07/lib/main.dart)
+ - [pubspec.yaml](https://github.com/DokySp/2021-Simseok-AI-Class-Flutter/blob/main/examples/ex_ch02-07/pubspec.yaml)
 
 ## Screenshots
 
